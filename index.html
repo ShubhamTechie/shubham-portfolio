@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shubham Sahu — Senior Java Backend Developer with 5+ years of experience in Spring Boot, Microservices, Kafka, AWS, Docker &amp; Kubernetes." />
+  <meta name="keywords" content="Java Developer, Spring Boot, Microservices, Kafka, AWS, Docker, Kubernetes, Backend Developer, Shubham Sahu" />
+  <meta name="author" content="Shubham Sahu" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Shubham Sahu — Senior Java Backend Developer" />
+  <meta property="og:description" content="Portfolio of Shubham Sahu — 5+ years building scalable, cloud-native enterprise applications." />
+  <meta property="og:type" content="website" />
+
+  <title>Shubham Sahu — Senior Java Backend Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ======================= NAVBAR ======================= -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo" aria-label="Home">
+        <span class="logo-bracket">&lt;</span>shubham<span class="logo-bracket">/&gt;</span>
+      </a>
+      <nav class="navbar__links" id="navLinks" role="navigation" aria-label="Main navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="navbar__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="ph ph-moon" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================= HERO ======================= -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__greeting animate-on-scroll">
+          <span class="greeting-wave" aria-hidden="true">👋</span> Hello, I'm
+        </p>
+        <h1 class="hero__name animate-on-scroll">Shubham <span class="text-gradient">Sahu</span></h1>
+        <div class="hero__typewriter animate-on-scroll">
+          <span class="typewriter-label">I build&nbsp;</span>
+          <span class="typewriter-text" id="typewriterText"></span>
+          <span class="typewriter-cursor" aria-hidden="true">|</span>
+        </div>
+        <p class="hero__desc animate-on-scroll">
+          Senior Java Backend Developer with <strong>5.2+ years</strong> of experience
+          architecting scalable, cloud-native enterprise applications using
+          <strong>Java, Spring Boot, Microservices, Kafka, Docker, Kubernetes &amp; AWS</strong>.
+        </p>
+        <div class="hero__cta animate-on-scroll">
+          <a href="#contact" class="btn btn--primary">
+            <i class="ph ph-envelope-simple"></i> Get in Touch
+          </a>
+          <a href="#projects" class="btn btn--outline">
+            <i class="ph ph-folder-open"></i> View Projects
+          </a>
+        </div>
+        <div class="hero__socials animate-on-scroll">
+          <a href="https://github.com/ShubhamTechie" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="ph ph-github-logo"></i>
+          </a>
+          <a href="https://linkedin.com/in/shubham-sahu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="mailto:shubhamsahudev04@gmail.com" aria-label="Email">
+            <i class="ph ph-envelope-simple"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero__visual animate-on-scroll">
+        <div class="code-window">
+          <div class="code-window__bar">
+            <span class="dot dot--red"></span>
+            <span class="dot dot--yellow"></span>
+            <span class="dot dot--green"></span>
+            <span class="code-window__title">ShubhamSahu.java</span>
+          </div>
+          <pre class="code-window__body"><code><span class="kw">public class</span> <span class="cls">ShubhamSahu</span> {
+
+  <span class="kw">private</span> String role = <span class="str">"Senior Java Backend Dev"</span>;
+  <span class="kw">private</span> <span class="cls">double</span> experience = <span class="num">5.2</span>;
+  <span class="kw">private</span> String[] stack = {
+    <span class="str">"Spring Boot"</span>, <span class="str">"Microservices"</span>,
+    <span class="str">"Kafka"</span>, <span class="str">"Docker"</span>, <span class="str">"AWS"</span>
+  };
+
+  <span class="kw">public</span> String <span class="fn">getPassion</span>() {
+    <span class="kw">return</span> <span class="str">"Building scalable systems"</span>;
+  }
+}</code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ======================= ABOUT ======================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">
+        <span class="section__number">01.</span> About Me
+      </h2>
+      <div class="about__grid">
+        <div class="about__text animate-on-scroll">
+          <p>
+            I'm a <strong>Senior Java Backend Developer</strong> based in <strong>Mumbai, India</strong>,
+            with 5.2+ years of hands-on experience designing, building, and shipping production-grade
+            enterprise applications. My expertise spans the full backend ecosystem — from crafting
+            secure REST APIs and event-driven architectures to containerized deployments on AWS.
+          </p>
+          <p>
+            I've built a Spring Boot microservices platform supporting <strong>100K+ concurrent users</strong>
+            while cutting API latency by <strong>35%</strong> through performance tuning and event-driven design.
+            My work spans <strong>EdTech</strong> and <strong>Insurance</strong> domains, and I'm fluent in
+            AI-assisted development workflows to accelerate delivery.
+          </p>
+          <div class="about__highlights">
+            <div class="highlight-card">
+              <span class="highlight-card__number">5.2+</span>
+              <span class="highlight-card__label">Years Experience</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-card__number">100K+</span>
+              <span class="highlight-card__label">Concurrent Users</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-card__number">35%</span>
+              <span class="highlight-card__label">Latency Reduced</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-card__number">40%</span>
+              <span class="highlight-card__label">Faster Queries</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SKILLS ======================= -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">
+        <span class="section__number">02.</span> Technical Skills
+      </h2>
+      <div class="skills__grid">
+        <!-- Languages -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-code"></i>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java 8/11/17/21</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">React</span>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-gear-six"></i>
+            <h3>Backend &amp; Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">Spring Boot</span>
+            <span class="skill-tag skill-tag--primary">Microservices</span>
+            <span class="skill-tag">Spring MVC</span>
+            <span class="skill-tag">Spring Security</span>
+            <span class="skill-tag">Spring Data JPA</span>
+            <span class="skill-tag">Hibernate</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Spring Cloud</span>
+            <span class="skill-tag">OpenFeign</span>
+            <span class="skill-tag">Eureka</span>
+            <span class="skill-tag">API Gateway</span>
+            <span class="skill-tag">Swagger</span>
+          </div>
+        </div>
+        <!-- Messaging -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-queue"></i>
+            <h3>Messaging</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">Apache Kafka</span>
+            <span class="skill-tag">Event-Driven Architecture</span>
+          </div>
+        </div>
+        <!-- Database -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-database"></i>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Oracle</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+        <!-- Cloud & DevOps -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-cloud"></i>
+            <h3>Cloud &amp; DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">AWS</span>
+            <span class="skill-tag skill-tag--primary">Docker</span>
+            <span class="skill-tag skill-tag--primary">Kubernetes</span>
+            <span class="skill-tag">EC2</span>
+            <span class="skill-tag">S3</span>
+            <span class="skill-tag">RDS</span>
+            <span class="skill-tag">Jenkins</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Nginx</span>
+            <span class="skill-tag">Maven</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+        <!-- Testing -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-test-tube"></i>
+            <h3>Testing &amp; Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">JUnit 5</span>
+            <span class="skill-tag">Mockito</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">SonarQube</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">Confluence</span>
+            <span class="skill-tag">ELK Stack</span>
+            <span class="skill-tag">Kibana</span>
+          </div>
+        </div>
+        <!-- Architecture -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-tree-structure"></i>
+            <h3>Architecture &amp; Security</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">System Design</span>
+            <span class="skill-tag">Distributed Systems</span>
+            <span class="skill-tag">Design Patterns</span>
+            <span class="skill-tag">SOLID</span>
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Multithreading</span>
+            <span class="skill-tag">JWT</span>
+            <span class="skill-tag">OAuth2</span>
+            <span class="skill-tag">RBAC</span>
+          </div>
+        </div>
+        <!-- AI -->
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category__header">
+            <i class="ph ph-robot"></i>
+            <h3>AI-Assisted Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Claude</span>
+            <span class="skill-tag">GitHub Copilot</span>
+            <span class="skill-tag">ChatGPT</span>
+            <span class="skill-tag">Cursor AI</span>
+            <span class="skill-tag">Gemini</span>
+            <span class="skill-tag">Prompt Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= EXPERIENCE ======================= -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">
+        <span class="section__number">03.</span> Experience
+      </h2>
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline__item animate-on-scroll">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Senior Java Backend Developer</h3>
+                <p class="timeline__company">
+                  <i class="ph ph-buildings"></i> Trenika Technologies Pvt Ltd
+                  <span class="timeline__tag">NSDC</span>
+                </p>
+              </div>
+              <span class="timeline__date">
+                <i class="ph ph-calendar-blank"></i> May 2023 – Present
+              </span>
+            </div>
+            <ul class="timeline__list">
+              <li>Developed scalable Spring Boot microservices supporting <strong>100K+ concurrent users</strong> on an EdTech and skill-development platform, reducing API latency by <strong>35%</strong>.</li>
+              <li>Designed RESTful APIs for course management, certification, apprenticeship, and user onboarding workflows.</li>
+              <li>Integrated <strong>Apache Kafka</strong> for asynchronous event processing, reducing API response latency.</li>
+              <li>Secured APIs using <strong>Spring Security, JWT, and OAuth2</strong>; implemented role-based access control (RBAC).</li>
+              <li>Containerized services with <strong>Docker</strong> and deployed on <strong>AWS EC2</strong> using CI/CD pipelines (Jenkins, Git, GitHub Actions).</li>
+              <li>Optimized PostgreSQL/MySQL schemas, indexing, and <strong>Redis caching</strong>, cutting average query response time by <strong>~40%</strong>.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Experience 2 -->
+        <div class="timeline__item animate-on-scroll">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Software Engineer</h3>
+                <p class="timeline__company">
+                  <i class="ph ph-buildings"></i> Cognizant
+                </p>
+              </div>
+              <span class="timeline__date">
+                <i class="ph ph-calendar-blank"></i> Jul 2022 – May 2023
+              </span>
+            </div>
+            <ul class="timeline__list">
+              <li>Built backend services for an <strong>Insurance Policy &amp; Nominee Management System</strong> using layered architecture.</li>
+              <li>Implemented validation and authorization workflows; integrated <strong>Aadhaar and PAN verification APIs</strong>.</li>
+              <li>Automated deployments using <strong>Jenkins CI/CD</strong> and deployed Dockerized microservices on AWS EC2.</li>
+              <li>Wrote unit tests with <strong>JUnit/Mockito</strong> and validated APIs using Postman within an Agile Scrum team.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Experience 3 -->
+        <div class="timeline__item animate-on-scroll">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Application Support Engineer</h3>
+                <p class="timeline__company">
+                  <i class="ph ph-buildings"></i> Axis Bank
+                </p>
+              </div>
+              <span class="timeline__date">
+                <i class="ph ph-calendar-blank"></i> Jan 2021 – Feb 2022
+              </span>
+            </div>
+            <ul class="timeline__list">
+              <li>Provided <strong>L2/L3 production support</strong> for critical Java/Spring Boot banking applications, ensuring high availability and SLA-bound incident resolution.</li>
+              <li>Investigated production issues via application logs, <strong>Oracle SQL</strong>, and the <strong>ELK Stack</strong>; monitored batch jobs and scheduled processes.</li>
+              <li>Prepared <strong>Root Cause Analysis (RCA) reports</strong> and maintained technical documentation for recurring incidents using ServiceNow.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= PROJECTS ======================= -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">
+        <span class="section__number">04.</span> Key Projects
+      </h2>
+      <div class="projects__grid">
+        <!-- Project 1 -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-card__header">
+            <i class="ph ph-folder-notch-open"></i>
+            <div class="project-card__links">
+              <a href="https://github.com/ShubhamTechie" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="ph ph-github-logo"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">NSDC — National Skill Development Platform</h3>
+          <p class="project-card__desc">
+            Built enterprise microservices for course management, certifications, apprenticeship workflows,
+            and partner onboarding with secure REST APIs. Platform supports 100K+ concurrent users.
+          </p>
+          <div class="project-card__tech">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Kafka</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+            <span>AWS</span>
+            <span>JWT</span>
+            <span>OAuth2</span>
+          </div>
+        </article>
+        <!-- Project 2 -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-card__header">
+            <i class="ph ph-folder-notch-open"></i>
+            <div class="project-card__links">
+              <a href="https://github.com/ShubhamTechie" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="ph ph-github-logo"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Insurance Policy &amp; Nominee Management System</h3>
+          <p class="project-card__desc">
+            Developed secure backend services for policy management, nominee verification, and approval
+            workflows. Integrated Aadhaar and PAN verification APIs with robust authorization.
+          </p>
+          <div class="project-card__tech">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Microservices</span>
+            <span>AWS</span>
+            <span>Docker</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= EDUCATION ======================= -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">
+        <span class="section__number">05.</span> Education
+      </h2>
+      <div class="education-card animate-on-scroll">
+        <div class="education-card__icon">
+          <i class="ph ph-graduation-cap"></i>
+        </div>
+        <div class="education-card__info">
+          <h3>Bachelor of Technology (B.Tech.)</h3>
+          <p class="education-card__school">
+            <i class="ph ph-map-pin"></i> Technocrats Institute of Technology, Bhopal
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACT ======================= -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">
+        <span class="section__number">06.</span> Get in Touch
+      </h2>
+      <div class="contact__inner animate-on-scroll">
+        <p class="contact__text">
+          I'm currently open to new opportunities and collaborations.
+          Whether you have a project in mind, a question, or just want to say hi — my inbox is always open!
+        </p>
+        <div class="contact__cards">
+          <a href="mailto:shubhamsahudev04@gmail.com" class="contact-card">
+            <i class="ph ph-envelope-simple"></i>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">shubhamsahudev04@gmail.com</span>
+          </a>
+          <a href="tel:+919202116954" class="contact-card">
+            <i class="ph ph-phone"></i>
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">+91-9202116954</span>
+          </a>
+          <a href="https://linkedin.com/in/shubham-sahu" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="ph ph-linkedin-logo"></i>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">linkedin.com/in/shubham-sahu</span>
+          </a>
+          <a href="https://github.com/ShubhamTechie" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="ph ph-github-logo"></i>
+            <span class="contact-card__label">GitHub</span>
+            <span class="contact-card__value">github.com/ShubhamTechie</span>
+          </a>
+        </div>
+        <a href="mailto:shubhamsahudev04@gmail.com" class="btn btn--primary btn--lg">
+          <i class="ph ph-paper-plane-tilt"></i> Say Hello
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p>Designed &amp; Built by <strong>Shubham Sahu</strong></p>
+      <div class="footer__socials">
+        <a href="https://github.com/ShubhamTechie" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+        <a href="https://linkedin.com/in/shubham-sahu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="mailto:shubhamsahudev04@gmail.com" aria-label="Email"><i class="ph ph-envelope-simple"></i></a>
+      </div>
+      <p class="footer__copy">&copy; 2026 Shubham Sahu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="ph-bold ph-caret-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
